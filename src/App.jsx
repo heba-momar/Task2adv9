@@ -1,10 +1,9 @@
 
-import { useEffect, useState } from "react"
+import { useEffect} from "react"
 import './App.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ScrollTop from './Components/ScrollTop/ScrollTop'
-import Loder from './Components/Loder/Loder'
 import NavbarTop from './Components/NavbarTop/NavbarTop'
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
@@ -24,14 +23,7 @@ function App() {
       mirror: true
     });
   }, []);
-  const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 2000);
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (loading) return <Loder />;
   return (
     <>
 
