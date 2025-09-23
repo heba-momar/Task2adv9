@@ -3,12 +3,12 @@ import './Navbar.css'
 import logo from '../../assets/images/little.svg'
 import itemsNav from '../../Data/DataNavBar'
 import banner from '../../assets/images/banner.svg'
-import error from '../../assets/images/email.svg'
+import close from '../../assets/images/closeicon.svg'
 import { NavLink } from 'react-router-dom'
 export default function Navbar() {
   const[activeItem,SetactiveItem]=useState('Home');
 const [IsOpen,SetIsOpen] = useState(false);
- const icon= IsOpen ? error :banner
+ const icon= IsOpen ? close :banner
 const toggelMenu=()=>{
   SetIsOpen(!IsOpen)
 }

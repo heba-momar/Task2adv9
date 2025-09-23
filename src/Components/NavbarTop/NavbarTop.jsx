@@ -13,7 +13,7 @@ export default function NavbarTop() {
   return (
     <div className='containerNavTop b-2'>
       <div className='containerNav1'>
-          <div className='desNav1 d-f desTop'>
+          <div className='desNav1 desTop'>
       <p className='f-20 f-14 '>Admission is Open, Grab your seat now</p>
       <img src={shamright}></img>
       </div>
