@@ -35,8 +35,9 @@ if(start < Maxstart){
       des={'Our testimonials are heartfelt reflections of the nurturing environment we provide, where children flourish both academically and emotionally.'}
       />
       <div className='OurTestimonialsContainer m-t d-f'>
-      <ButtonImg imgsrc={prev} stylediv={'shamleft b-2 shamTop'} styleimg={'Prev'} onclick={HandlPrev} displed={start===0}/>
+      
           <div className='container-OurTestimonialsCards d-f'>
+            <ButtonImg imgsrc={prev} stylediv={'shamleft b-2 shamTop'} styleimg={'Prev'} onclick={HandlPrev} displed={start===0}/>
    {DataTestimonials.slice(start,start+CardInD).map((h)=>{
     return(
         <CardTestimonials key={h.id} icon={h.icon} titelTestimonial={h.titelTestimonial}

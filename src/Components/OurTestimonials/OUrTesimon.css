@@ -2,7 +2,7 @@
 .CardTestimonials{
     background-color: var( --color-white);
     padding: 50px;
-       width: 26.716%;
+       width: 28.716%;
     transition: all 0.3s ease;
 }
 .CardTestimonials:hover{
@@ -49,9 +49,9 @@ background-color: var(--color-white); }
 height: 30px;
 }
 .OurTestimonialsContainer{
-    width:84%;
-    margin: 0 auto; 
     gap: 20px;
+    width:84%;
+    margin: 0 auto;
 }
 .ShamBottom{
     display: none;
