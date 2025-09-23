@@ -100,7 +100,7 @@ border-radius: 0px 12px 12px 0px;
 }
 .navmeuncontainer.show {
     transform: translateX(0);
-    right:40px;
+    right:30px;
 }
 @media (max-width:1350px) {
 .NavLogo{
