@@ -22,7 +22,7 @@ export default function Hero({span,TittelHero,tittelspan,desHero}) {
           {DataHero?.map((index)=>{
             return(
               <div>
-            <h3 className='f-20 bootomheading'>{index.number}</h3>
+            <h3 className=' bootomheading'>{index.number}</h3>
             <span className='f-20 bootomspan'>{index.descnum}</span>
             <div className='mobileLine'></div>
             </div>
