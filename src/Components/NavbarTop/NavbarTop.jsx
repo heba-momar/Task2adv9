@@ -1,5 +1,6 @@
 import React from 'react'
 import './NavbarTop.css'
+import shamright  from '../../assets/images/shamright.svg'
 import Designleft from '../../assets/images/Abstract Designright.svg'
 import Designright from '../../assets/images/Abstract Designright.svg'
 import shaptop from '../../assets/images/shaptop.svg'
@@ -14,7 +15,7 @@ export default function NavbarTop() {
       <div className='containerNav1'>
           <div className='desNav1 d-f desTop'>
       <p className='f-20 f-14 '>Admission is Open, Grab your seat now</p>
-      <img src='/src/assets/images/shamright.svg'></img>
+      <img src={shamright}></img>
       </div>
     
       <img className='Designleft' src={Designleft}></img>
