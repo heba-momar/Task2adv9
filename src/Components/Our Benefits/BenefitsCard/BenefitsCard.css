@@ -1,0 +1,66 @@
+.contenierCardBenefits{
+padding: 80px 50px 50px 50px;
+border-radius: 12px;
+background-color: var(--color-white);
+position: relative;
+transition: all 0.3s ease;
+width:28.76%;
+
+
+}
+.contenierCardBenefits:hover{
+  transform: translateY(-4px);
+}
+
+.BenefitsCardIcon{
+width: 74px;
+position: absolute;
+left:20px;
+top:-20px;
+border-radius: 12px;
+padding: 20px;
+background-color: var( --color-pink);
+}
+
+.BenefitsTittel{
+ font-size: 28px;  
+ text-align: start;
+}
+.desBenefts{
+    margin-top: 20px;
+    
+}
+.iconwidth{
+  width: 34px;  
+}
+@media (max-width:1390px) {
+    .contenierCardBenefits{
+  padding:60px 40px 40px 40px;
+  border-radius: 10px;
+  width: 40%;
+    }
+    .BenefitsTittel{
+        font-size: 24px;  
+        margin-bottom: 16px; 
+       }
+       .desBenefts{
+           margin-top: 16px;
+       }
+       .iconwidth{
+        width: 24px;  
+      }
+      .BenefitsCardIcon{
+        width: 54px;
+        border-radius: 8px;
+        padding: 16px;
+        }
+}
+@media (max-width:940px) {
+.contenierCardBenefits{
+ padding:50px 40px 30px 30px;
+  width: 84%;
+}
+.BenefitsTittel{
+    font-size: 22px;   
+   }
+}

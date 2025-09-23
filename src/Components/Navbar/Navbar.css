@@ -1,0 +1,152 @@
+.Nav{
+    width:90%;
+    height:80px;
+    opacity: 1;
+    border-radius: 12px;
+    background-color: var( --color-white);
+    margin:14px auto 0 auto;
+     position: fixed;
+    top:94px;
+    left:0 ;
+    right: 0;
+    z-index: 9999;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;
+}
+.NavLogo{
+display: flex;
+align-items: center;
+ justify-content: start;
+ height: 100%;
+ border-radius: 12px 0px 0px 12px;
+gap: 10px;
+padding: 20px 24px;
+border-right: 2px solid var( --color-black);
+background-color: var(--color-orange);
+}
+.textLog{
+font-size:25px;
+color: var(--color-black);
+font-family: var(--Outfit-font);
+font-weight: 500;
+line-height: 150%;
+}
+.container-list{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+  .container-list li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-left:2px solid var(--color-black);
+  } 
+
+li a{
+text-decoration: none; 
+padding:20px 34px;
+font-family: var( --Outfit-font);
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+color: var(--color-black);
+}
+.container-list li:last-child{
+background-color: var(--color-orange);
+height: 100%;
+border-radius: 0px 12px 12px 0px;
+display: flex;
+align-items: center;
+}
+.active{
+background-color: var(--color-hover);
+}
+.navmeuncontainer{
+display: none; 
+position: fixed;
+ margin: 0 auto;
+background-color:var(--color-white);
+    display: flex;
+    border-radius: 20px;
+    border: 2px solid var(--color-black);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   gap: 25px;
+   padding: 30px 30px;
+   list-style: none;
+   border-radius: 12px;
+   z-index: 9998; 
+   width: 400px;
+   height: 500px;
+   top:220px;
+   right:-400px;
+   transition: 0.6s;
+   padding: 20px 20px;
+}
+.navmeuncontainer li:last-child, .navmeuncontainer li:last-child{
+background-color: var(--color-orange);
+padding:2px
+}
+.banner{
+ display: none;
+border-left:2px solid var(--color-black);
+background-color: var(--color-hover);
+ height: 100%;
+border-radius: 0px 12px 12px 0px;
+}
+.navmeuncontainer.show {
+    transform: translateX(0);
+    right:40px;
+}
+@media (max-width:1350px) {
+.NavLogo{
+padding:16px 20px;
+} 
+.textLog{
+font-size:18px;
+}  
+li a{
+padding:16px 20px;
+font-size:16px;
+}  
+}
+@media (max-width:990px) {
+.Nav{
+    border-radius:12px;
+    margin:14px auto 0 auto;
+     position: fixed;
+    top:120px;
+      
+}
+.NavLogo{
+gap:4px;
+}
+.textLog{
+font-size:18px;
+}  
+   .banner{
+        display: flex;
+        align-items: center;
+    }
+    .banner img{
+       width: 88px;
+        height: 62px;  
+    }
+       .container-list {
+        display: none;
+    }  
+    .Logo-Contaniar img{
+          height: 30px;
+       }
+       .navmeuncontainer{
+        display: flex;
+       }  
+      .navmeuncontainer li a{
+      font-size:28px;  
+    
+      }
+}

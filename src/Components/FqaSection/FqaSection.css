@@ -1,0 +1,20 @@
+
+.FqaCardsContainer{
+    width: 100%;
+}
+
+.FqaCardsContainerRigt,.Accordion{
+    width: 43%;
+}
+    @media (max-width:990px) {
+        .FqaCardsContainer{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .FqaCardsContainerRigt,.Accordion{
+            display: flex;
+            flex-direction: column;
+            width: 84%;
+            gap: 30px;
+        }
+}

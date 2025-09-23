@@ -1,0 +1,202 @@
+.Footer{
+background-color: var(--color-white);
+  width: 90%;
+  padding:100px 113px 40px 113px;
+  margin: 200px auto 50px auto
+}
+.containerFooter{
+display: flex;
+justify-content: space-between;
+gap: 80px;
+}
+.FooterBottomspan{
+color: var(--color-black);
+}
+.FooterLeft{
+    width:32%;
+}
+.NavLogoFooteer{
+display: flex;
+align-items: center;
+ justify-content: start;
+gap: 10px;
+}
+.textLogFotter{
+font-size:20px;
+color: var(--color-black);
+font-family: var(--Outfit-font);
+font-weight: 500;
+line-height: 150%;
+}
+.desfooterRight{
+margin: 20px 0px 34px 0;
+color :var( --color-des)
+}
+.FooterBottom{
+background-color: var(  --color-background);
+border-radius: 6px;
+  display: flex;
+  padding: 8px;
+justify-content: center;
+ width: 40px;
+height: 40px;
+}
+.FooterBottomContainer{
+display: flex;
+align-items: center;
+gap: 10px;
+margin-top:24px;
+}
+.LineTop,.LineTop1{
+width:100%;
+margin:30px auto 0 auto ;
+border-top:1px solid var(--color-black);
+}
+.LineTop1{
+margin:20px auto 0 auto ;    
+}
+.FooterRightContainer{
+width: 62.7%;
+}
+.FooterRight{
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+.FooterRighList{
+list-style: none; 
+margin-top: 14px; 
+}
+.FooterRighList:first-child{
+margin-top: 24px;  
+}
+.bettwenLine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FooterBottom1{
+border-radius:8px;
+ padding:16px;
+width:56px;
+height:56px;
+background-color: var(--color-pink);
+display: flex;
+justify-content: center;
+align-items: center;
+} 
+.bettwenLineright {
+display: flex;
+justify-content: center;
+align-items: center; 
+margin-top: 20px; 
+gap: 14px;  
+} 
+.bettwenLineLeft{
+   display: flex;
+justify-content: center;
+align-items: center; 
+margin-top: 20px; 
+gap: 16px;
+}
+.desline{
+border-right:2px solid var(--color-black) ; 
+padding-right:16px;     
+}
+.desline:last-child{
+border-right:none ; 
+}
+.endfotter{
+text-align: center;
+font-size: 18px;
+color: var(--color-end);
+margin: 30px 0 0px 0;
+}
+@media (max-width:1390px) {
+.Footer{
+  padding:80px 80px 40px 80px;
+  margin:150px auto 50px auto
+}
+.desfooterRight{
+margin:16px 0px 20px 0;
+}
+.LineTop{
+margin:40px auto 0 auto ;
+}
+.FooterRighList:first-child{
+margin-top: 20px;  
+} 
+.FooterBottom{
+border-radius:4px;
+ padding:6px;
+width:32px;
+height:32px;
+cursor: pointer;
+}
+.FooterBottom1{
+border-radius:6px;
+ padding:14px;
+width:48px;
+height:48px;
+}
+.endfotter{
+font-size: 16px;
+margin: 20px 0 0px 0;
+}
+}
+@media (max-width:990px) {
+.Footer{
+  padding:60px 30px 30px 30px;
+  margin:80px auto 20px auto
+} 
+.desfooterRight{
+text-align: center;
+}  
+.LineTop{
+margin:30px auto 0 auto ;
+}
+.containerFooter{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 50px;
+}
+.FooterLeft,.FooterRightContainer{
+    width:100%;
+    margin: 0 auto;
+}
+.NavLogoFooteer{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+gap: 10px;
+}
+.FooterRight{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 30px;
+} 
+.bettwenLine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.FooterBottom1{
+border-radius:6px;
+ padding:12px;
+width:44px;
+height:44px;
+} 
+.bettwenLine{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.endfotter{
+font-size: 14px;
+margin:16px 0 0px 0;
+}     
+}

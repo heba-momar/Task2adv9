@@ -1,0 +1,75 @@
+.NavigateContainer{
+background-color: var(--color-white);
+padding:80px ;
+border-radius: 12px;
+width: 43%;
+}
+.desnavg{
+ margin-top: 50px ;   
+}
+.buttonNavg{
+width: 100%;
+margin: 80px auto 0 auto;
+ padding: 18px;
+ border-radius: 8px;
+ background-color: var(--color-pink);
+ display: flex;
+ align-items: center;
+ gap: 5px;
+ justify-content: center;
+}
+.titteNavg{
+font-size: 48px;    
+}
+.iconLine{
+width: 100%;
+margin-top: 30px;
+}
+.NavigatesContainer{
+display: flex;
+flex-wrap: wrap;
+gap: 40px;
+justify-content: center;
+align-items: center;
+}
+.NavigatesContainer{
+    width: 100%;
+}
+@media (max-width:1390px) {
+.NavigateContainer{
+padding:60px ;
+border-radius: 10px;
+}
+.titteNavg{
+font-size: 34px;    
+}  
+.desnavg{
+ margin-top:40px ;   
+}
+.buttonNavg{
+margin: 60px auto 0 auto;
+}
+.iconLine{
+margin-top:24px;
+}
+}
+@media (max-width:990px) {
+  .titteNavg{
+font-size: 28px;    
+}
+  .NavigateContainer{
+padding:40px ;
+width: 84%;
+} 
+.desnavg{
+ margin-top:30px ;   
+} 
+.buttonNavg{
+ margin: 40px auto 0 auto;
+ padding: 16px;
+border-radius:6px;
+}
+.iconLine{
+margin-top:20px;
+}
+}

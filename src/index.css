@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+ 
+}
+body{
+   background-color: var( --color-hover);
+}
+.p-x{
+  padding:200px 162px 0px 162px ;
+}
+.p-y{
+  padding:200px 166px 0px 162px ;
+}
+.m-t{
+  margin-top: 100px;
+}
+.d-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.heading{
+    font-family: var(--Raleway-font);   
+    font-weight: 700;
+    line-height: 130%;
+    text-align: center;
+    color: var(  --color-text);   
+    text-align: center;
+}
+.f-20{
+    font-family: var(--Outfit-font);
+    font-weight: 500;
+    line-height: 150%;
+    color: var(  --color-hero-desc); 
+    font-size: 20px;
+}
+.box-shadow{
+  box-shadow: 6px 6px 0px 2px var(--color-shadaw);
+}
+
+.b-2{
+  border: 2px solid var(--color-black) ;
+}
+.b-1{
+  border: 1px solid var( --color-black);
+}
+
+:root{
+     /* Colors */
+     --color-orange: #FF8D4D;
+     --color-pink:#FFDECC;
+     --color-hover: #FFEFE5;
+     --color-hero: #FFBE99;
+    --color-black: #262626;
+    --box-shadow: #FFBE99;
+   --color-white: #FFFFFF;
+   --color-shadaw:#1E1E1E;
+   --color-text: #1a1a1a;
+   --color-des: #4c4c4d;
+   --color-hero-desc:#333333;
+   --color-background: #FFF5F0;
+   --color-end:#656567;
+ --color-nav: rgb(255, 174, 128);
+
+
+      /* Fonts */
+    --Outfit-font:"Outfit", sans-serif;
+   --Raleway-font:"Raleway", sans-serif;
+}
+@media (max-width:1390px) {
+  .p-x{
+    padding:154px 80px 0px 80px ; 
+  } 
+  .p-y{
+    padding:154px 82px 0px 82px ;
+  }
+  .m-t{
+    margin-top: 80px;
+  }
+  .f-20{
+    font-size:16px ;
+  }
+  .box-shadow{
+    box-shadow: 4px 4px 0px 2px var(--color-shadaw);
+  }
+}
+
+   @media (max-width:990px) {
+    .p-x,.p-y{
+      padding:80px 16px 0px 16px; 
+    } 
+    .m-t{
+      margin-top: 50px;
+    }
+    .heading{
+      margin-top: 10px;
+    }
+    .box-shadow{
+      box-shadow: 4px 4px 0px 1px var(--color-shadaw);
+
+    }
+   }
