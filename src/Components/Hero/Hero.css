@@ -46,7 +46,7 @@ width: 100%;
 .bootomheading{
 font-size:44px;
 color: var(--color-black);
-font-style: ExtraBold;
+font-weight: 800;
 
 }
 .bootomspan{
