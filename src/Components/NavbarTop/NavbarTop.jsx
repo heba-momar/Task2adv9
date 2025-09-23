@@ -1,7 +1,7 @@
 import React from 'react'
 import './NavbarTop.css'
 import shamright  from '../../assets/images/shamright.svg'
-import Designleft from '../../assets/images/Abstract Designright.svg'
+import Designleft from '../../assets/images/Abstract Designleft.svg'
 import Designright from '../../assets/images/Abstract Designright.svg'
 import shaptop from '../../assets/images/shaptop.svg'
 import shaPbottom from '../../assets/images/shaPbottom.svg'
